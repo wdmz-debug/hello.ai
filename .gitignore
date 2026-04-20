@@ -1,0 +1,8 @@
+# CMake 产生的中间文件
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# 编译出来的可执行文件
+hello_ai
