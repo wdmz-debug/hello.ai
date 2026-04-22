@@ -10,9 +10,8 @@ class AIModel {
 
 void processImage() {
     std::cout << "开始处理单张照片\n";
-    //案发现场：在堆上分配内存
-    AIModel* model = new AIModel();
-    model->run();
+    AIModel model;
+    model.run();
     std::cout << "图片处理结束";
 }
 
